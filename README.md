@@ -14,5 +14,12 @@ Case-Shiller Home Price Index: [Download](https://fred.stlouisfed.org/series/CSU
 - Experimented on different ML models like Linear Regression, Decision tree, Random Forest, Support Vector Regressor and selected GradientBoostingRegressor.
 - Performed Hyperparameter tuning for better accuracy.
 
-
+# Access online
+[Cloud App](https://home-price-predictor.streamlit.app/)
 # Run on your system
+```bash
+git clone https://github.com/Tri-nadh/National-Home-Price-Predictor
+cd National-Home-Price-Predictor
+pip install requirements.txt
+python3 -m streamlit run app.py
+```
