@@ -2,11 +2,11 @@
 This ML model predicts the S&P Case-Shiller Home Price Index based on publicly available data such as population, unemployment rate, mortgage rate, and home supply rate.
 
 # Publicly Available Factors
-Population: [Download](https://fred.stlouisfed.org/series/POPTHM)
-Unemployment Rate: [Download](https://fred.stlouisfed.org/series/UNRATE)
-Mortgage Rate: [Download](https://fred.stlouisfed.org/series/MORTGAGE30US)
-Home Supply Rate: [Download](https://fred.stlouisfed.org/series/MSACSR)
-Case-Shiller Home Price Index: [Download](https://fred.stlouisfed.org/series/CSUSHPISA)
+Population: [Download](https://fred.stlouisfed.org/series/POPTHM) <br/>
+Unemployment Rate: [Download](https://fred.stlouisfed.org/series/UNRATE) <br/>
+Mortgage Rate: [Download](https://fred.stlouisfed.org/series/MORTGAGE30US) <br/>
+Home Supply Rate: [Download](https://fred.stlouisfed.org/series/MSACSR) <br/>
+Case-Shiller Home Price Index: [Download](https://fred.stlouisfed.org/series/CSUSHPISA) <br/>
 
 
 # Training
@@ -19,7 +19,7 @@ Case-Shiller Home Price Index: [Download](https://fred.stlouisfed.org/series/CSU
 # Run on your system
 ```bash
 git clone https://github.com/Tri-nadh/National-Home-Price-Predictor
-cd National-Home-Price-Predictor
+cd National-Home-Price-Predictor/app
 pip install requirements.txt
 python3 -m streamlit run app.py
 ```
